@@ -3775,3 +3775,41 @@ body.lang-en .main-footer {
 body.lang-en .framer-fru8lp .framer-15fzas1 {
     justify-content: flex-start !important;
 }
+
+
+
+
+
+
+.client-logo-box {
+    border-radius: 12px;
+    background-color: transparent !important; 
+    
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); 
+    
+    height: 135px;
+    width: 310px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-image: url('images/bg-pc.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+       
+}
+
+
+
+@media (max-width: 809px) {
+    .client-logo-box {
+        background-image: url('images/bg-phone.png'); 
+        background-color: transparent !important;
+        background-size: cover;
+        background-position: center;
+    }
+
+   
+}
